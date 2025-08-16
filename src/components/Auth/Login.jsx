@@ -21,10 +21,10 @@ const Login = () => {
                     }}
                     className='flex flex-col justify-center gap-4'>
                     <div className='flex flex-col'>
-                                        <label className='flex items-center gap-2'>Email Address <span className='text-red-700 text-xl'>*</span></label>
+                                        <label className='flex items-center gap-1'>Email Address <span className='text-red-700 text-xl'>*</span></label>
 
                         <input
-                        className='border p-2 rounded w-[350px] border-gray-400'
+                        className='border p-2 rounded w-[350px] border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500'
                         value={email}
                         type="email"
                         onChange={(e)=>{setemail(e.target.value)}}
@@ -32,9 +32,9 @@ const Login = () => {
                     </div>
 
                 <div className='flex flex-col'>
-                    <label className='flex items-center gap-2'>Password <span className='text-red-700 text-xl'>*</span></label>
+                    <label className='flex items-center gap-1'>Password <span className='text-red-700 text-xl'>*</span></label>
                     <input
-                        className='border p-2 rounded w-[350px] border-gray-400'
+                        className='border p-2 rounded w-[350px] border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500'
                         value={password}
                         type="password"
                         onChange={(e)=>{setpassword(e.target.value)}}

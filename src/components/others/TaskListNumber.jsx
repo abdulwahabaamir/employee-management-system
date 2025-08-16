@@ -17,7 +17,7 @@ const TaskListNumber = () => {
         </div>
         <div className='bg-yellow-400 py-6 w-[45%] px-9 rounded-xl'>
             <h1 className='font-bold text-2xl'>1</h1>
-            <h2 className='font-semibold text-lg'>Rare Task</h2>
+            <h2 className='font-semibold text-lg'>Accepted Task</h2>
         </div>
         
           
